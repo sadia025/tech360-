@@ -1,20 +1,37 @@
- body{ 
+ body {
      background-color: lightblue;
-  
+
  }
-  nav{
-      text-transform: capitalize;
+
+ nav {
+     text-transform: capitalize;
      font-family: 'Josefin Sans', sans-serif;
 
  }
-.nav-link{ 
-    opacity: 0.7;
-}
 
-.nav-link:hover { 
-    opacity: 0.7;
-    background-color: blue
-}
-header { 
-    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=IJEiYaAW&id=129B40A994929635A4FE4320E32EF95FAE574543&thid=OIP.IJEiYaAW9syfTjt-U3FTSgHaFQ&mediaurl=https%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2faa%2f8th_Ave%252C_Manhattan.jpg&exph=2553&expw=3599&q=manhattan&simid=608033128567014350&selectedIndex=19");
-} 
+ .nav-link {
+     opacity: 0.7;
+ }
+
+ .nav-link:hover {
+     opacity: 0.7;
+     background-color: grey
+ }
+
+ header {
+     background-image: url("https://worldvisits.files.wordpress.com/2014/07/incredible-photo-of-sunrise-over-manhattan-new-york.jpg");
+     text-align: center;
+     height: 600px;
+     width: 100%;
+     background-size: cover;
+ }
+
+ header p {
+     font-style: italic;
+ }
+ .services i{
+     font-size: 60px; 
+     padding: 25px 20px;
+ }
+ 
+ 
