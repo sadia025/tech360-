@@ -19,7 +19,7 @@
  }
 
  header {
-     background-image: url("https://worldvisits.files.wordpress.com/2014/07/incredible-photo-of-sunrise-over-manhattan-new-york.jpg");
+     background-image: url("NYC.jpg");
      text-align: center;
      height: 600px;
      width: 100%;
@@ -30,8 +30,17 @@
      font-style: italic;
  }
  .services i{
-     font-size: 60px; 
+     font-size: 30px; 
      padding: 25px 20px;
+     color: #fff;
+     background-color: blue;
+     width: 80px;
+     height: 80px;
+     /*changes the roundness of the container*/
+     border-radius: 50%; 
+}
+
+ .services span{ 
+     width: 200px;
+     display: inline-block;
  }
- 
- 
