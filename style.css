@@ -43,4 +43,26 @@
  .services span{ 
      width: 200px;
      display: inline-block;
+    border-radius: 50%; 
+ }
+
+ .clients i{
+     font-size: 30px; 
+     padding: 25px 20px;
+     color: #fff;
+     background-color: purple;
+     width: 80px;
+     height: 80px;
+     /*changes the roundness of the container*/
+     border-radius: 100%; 
+      display: inline-block;
+      text-align: center;
+ }
+ .clients {
+  text-align: center;
+ }
+ .services span{ 
+     width: 200px;
+     display: inline-block;
+    border-radius: 50%; 
  }
