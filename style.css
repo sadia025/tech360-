@@ -38,13 +38,19 @@
      height: 80px;
      /*changes the roundness of the container*/
      border-radius: 50%; 
+     
 }
 
  .services span{ 
      width: 200px;
      display: inline-block;
     border-radius: 50%; 
+   
  }
+ .services {
+  text-align: center
+ }
+
 
  .clients i{
      font-size: 30px; 
@@ -64,5 +70,20 @@
  .services span{ 
      width: 200px;
      display: inline-block;
-    border-radius: 50%; 
+    border-radius: 0%; 
  }
+ .pricing {
+  margin-bottom: .5rem
+ }
+.col {
+ border: 1px solid;
+ height: 70px;
+}
+.contacts .input-group {
+  margin-bottom: 50px;
+ 
+}
+.contacts i {
+ padding: 17px;
+ text align:center 
+}
